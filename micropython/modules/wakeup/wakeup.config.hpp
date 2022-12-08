@@ -19,6 +19,10 @@
 #define WAKEUP_HAS_RTC (1)
 #endif
 
+#ifndef WAKEUP_HAS_SHIFT_REGISTER
+#define WAKEUP_HAS_SHIFT_REGISTER (0)
+#endif
+
 #ifndef WAKEUP_RTC_SDA
 #define WAKEUP_RTC_SDA (4)
 #endif
